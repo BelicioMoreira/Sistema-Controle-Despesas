@@ -1,0 +1,15 @@
+{
+    "name": "bmrn/sistema-controle-depesas",
+    "autoload": {
+        "psr-4": {
+            "Bmrn\\SistemaControleDepesas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Belicio Moreira",
+            "email": "belicio.moreira@gmail.com"
+        }
+    ],
+    "require": {}
+}
