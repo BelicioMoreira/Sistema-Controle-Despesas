@@ -1,6 +1,6 @@
 <?php
 
-    const APP_URL="Sistema-Controle-Depesas/";
+    const APP_URL="SistemaControleDepesas/";
     const APP_NAME="Despesas e Receitas";
     const APP_SESSION_NAME="sistema-controle-despesas";
 

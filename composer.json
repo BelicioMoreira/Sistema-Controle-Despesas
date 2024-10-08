@@ -2,7 +2,7 @@
     "name": "bmrn/sistema-controle-depesas",
     "autoload": {
         "psr-4": {
-            "Bmrn\\SistemaControleDepesas\\": "src/"
+            "app\\SistemaControleDepesas\\": "app/"
         }
     },
     "authors": [
