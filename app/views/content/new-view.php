@@ -7,10 +7,8 @@
         <section class="section">
             <div class="container">
                 <h1 class="title">
-                    404 Erro
+                    Nova Entrada
                 </h1>
-                <p class="subtitle">
-                </p>
             </div>
         </section>
         <?php require_once "../app/views/inc/script.php"; ?>

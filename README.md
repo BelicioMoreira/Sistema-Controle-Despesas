@@ -12,6 +12,11 @@ Criar um sistema de controle financeiro básico  utilizando PHP eMySQL, onde é 
 ## Instalação
 
 ### Pré-requisitos
+Certifique-se de ter os seguintes componentes instalados:
+
+1. **PHP**
+2. **MySQL**
+3. **Composer** 
 
 Para o funcionamento do 
 
@@ -24,6 +29,14 @@ https://github.com/BelicioMoreira/Sistema-Controle-Despesas.git
 2. **Mude para o diretorio**
 ```bash
 cd Sistema-Controle-Despesas
+```
+2. **Use o comando**
+```bash
+composer dump-autoload
+```
+2. **Mude para o diretorio**
+```bash
+cd public
 ```
 3. **Inicie o servidor PHP**
 ```bash
