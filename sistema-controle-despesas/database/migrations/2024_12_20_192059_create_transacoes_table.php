@@ -16,10 +16,10 @@ return new class extends Migration
             $table->timestamps();
             $table->string('tipo');
             $table->string('descricao');
-            $table->float('valor');
+            $table->float('valor', 10, 2);
             $table->date('data');
-            $table->foreign('categoria_id')->references('id_categoria')->onDelete('cascade');
-
+            $table->unsignedBigInteger('categoria_id')->nullable();
+            $table->foreign('categoria_id')->references('id_categoria')->on('categorias')->onDelete('cascade');
         });
     }
 
